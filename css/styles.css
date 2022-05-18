@@ -1,29 +1,5 @@
-body {
-  font-family: Roboto;
-  background-color: #ffffff;
-}
-
-.list {
-  list-style: none;
-}
-
-/* Site nav */
-
-.site-nav link {
-  color: #212121;
-}
-
-.site-nav link:hover,
-.site-nav link:focus {
-  color: #2196f3;
-}
-
-.site.nav link:visited {
-  color: red;
-}
-
-/* Основной цвет текста #212121 */
-/* Вторичный цвет текста #757575 */
+/* Основной цвет текста  #757575  */
+/* Вторичный цвет текста #212121 */
 /* Белый цвет: #FFFFFF */
 /* Цвет hover: #2196F3 */
 /* Цвет кнопок: background: #2196F3 */
@@ -34,3 +10,39 @@ body {
 /* Фон секции: #F5F4FA */
 /* Неактивный цвет кнопок меню Портфолио: #F5F4FA */
 /* Активный цвет кнопок меню Портфолио: #2196F3 */
+
+:root {
+  --primary-text-color: #757575;
+  --primary-title-color: #212121;
+}
+
+body {
+  font-family: Roboto;
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+/* Site nav */
+
+.site-nav .link {
+  color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+/* Section */
+
+.section .section-title {
+  color: var(--primary-title-color);
+}
+
+section .section-text {
+  color: var(--primary-text-color);
+}
