@@ -4,7 +4,22 @@ body {
 }
 
 .list {
-    list-style: none;
+  list-style: none;
+}
+
+/* Site nav */
+
+.site-nav link {
+  color: #212121;
+}
+
+.site-nav link:hover,
+.site-nav link:focus {
+  color: #2196f3;
+}
+
+.site.nav link:visited {
+  color: red;
 }
 
 /* Основной цвет текста #212121 */
