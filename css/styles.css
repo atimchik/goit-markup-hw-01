@@ -46,3 +46,17 @@ body {
 section .section-text {
   color: var(--primary-text-color);
 }
+
+/* Footer */
+
+.footer {
+    background: #2F303A;
+}
+
+.footer .footer-text {
+    color:#ffffff
+}
+
+.footer .link {
+    color: rgba(255, 255, 255, 0.6)
+}
